@@ -11,3 +11,5 @@ else print $0;}'"'"')'
 export PS1='\[$(tput setaf 7)\]$(eval "echo ${MYPS}")$\[$(tput sgr0)\]'
 export PATH="/usr/local/sbin:$PATH"
 export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:~/bin:~/.composer/vendor/bin 
+
+alias ll='ls -l'
